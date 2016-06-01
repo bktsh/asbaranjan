@@ -1,0 +1,26 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Asbaranjan's journey
+email: info@asbaranjan.com
+description: > # this means to ignore newlines until "baseurl:"
+  This website is to document my new project's lifecycle. Aka my project's Wiki.
+  How an idea is going to be realized and the lessons I am going to learn and share.
+  The story, if succeeds will be a revolution in wholesale mechanism in Iran, otherwie
+  I will just enjoy learning.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000/" # the base hostname & protocol for your site
+twitter_username: asbaranjan
+github_username:  bktsh
+
+# Build settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
